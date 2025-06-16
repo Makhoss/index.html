@@ -3,24 +3,19 @@
 <head> 	
   <meta charset="UTF-8">
   <title>projet HTML1</title>
-  <style>
-    body{font-family: Arial, Helvetica, sans-serif; margin: 0%; padding: 0;}
-    nav{background: #333; padding: 10px; }
-    nav a {color: white ; margin: 10px; text-decoration: none;}
-    section {padding: 10px;}
-    footer {background: #333; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%;}
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <a href="#home">DOMICILE</a>
-    <a href="#apropos">A propos</a>
-    <a href="#travail">TRAVAIL</a>
-    <a href="#cv">CV</a>
-    <a href="#contact">CONTACT</a>
+  <nav class="navbar">
+    <a href="#home" class="nav-link">DOMICILE</a>
+    <a href="#apropos" class="nav-link">A propos</a>
+    <a href="#travail" class="nav-link">TRAVAIL</a>
+    <a href="#cv" class="nav-link">CV</a>
+    <a href="#contact" class="nav-link">CONTACT</a>
   </nav>
-  <section id="home">
-    <h1>Akwaba sur projet HTML 1</h1>
+  <section id="home" class="section">
+    <h1 class="title">Akwaba sur projet HTML 1</h1>
   </section>
   <section id="apropos">
     <h2>A propos</h2>
@@ -47,7 +42,7 @@
 
       <label for="message">message :</label><br>
       <textarea id="message" name="message"></textarea><br><br>
-
+      
       <input type="submit" value="envoyer">
     </form>
   </section>
